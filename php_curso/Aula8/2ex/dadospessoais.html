@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seus Dados</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div>
+    <form method="GET" action="dados.php">
+            <input type="text" name="nome" placeholder="Nome"><br>
+            <input type="number" name="nasc" placeholder="Nascimento"><br>
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="masc" value="masculino">
+            <label for="masc">Masculino</label><br>
+            <input type="radio" name="sexo" id="femi" value="feminino">
+            <label for="femi">Feminino</label><br>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+    </div>
+</body>
+</html>

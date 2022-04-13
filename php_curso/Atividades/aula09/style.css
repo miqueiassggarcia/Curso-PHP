@@ -1,0 +1,20 @@
+body {
+    font: normal 15pt Arial;
+    background: rgb(112, 112, 245);
+}
+div {
+    width: 400px;
+    margin: 180px auto;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    height: 300px;
+}
+input {
+    margin-bottom: 5px;
+}
+input#botao {
+    background: rgb(73, 73, 73);
+    color: white;
+    padding: 4px;
+}

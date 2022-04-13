@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Conversor de sistemas de numeração</h1>
+    <div>
+        <form action="calculadora.php" method="get">
+           <p><label for="itext">Escreva aqui</label> <input type="text" name="text" id="itext"></p>
+           <p></p><input type="radio" name="tipo" id="itipo1" value="decimalbinario" checked><label for="itipo1">Decimal para binário</label>
+           <input type="radio" name="tipo" id="itipo2" value="binariodecimal"><label for="itipo2">Binário para decimal</label></<input>
+           <p></p><input type="radio" name="tipo" id="itipo3" value="decimalhexade"><label for="itipo3">Decimal para hexadecimal</label>
+           <input type="radio" name="tipo" id="itipo4" value="hexadedecimal"><label for="itipo4">Hexadecimal para decimal</label></<input>
+           <p></p><input type="radio" name="tipo" id="itipo5" value="decimaloctal"><label for="itipo5">Decimal para octal</label>
+           <input type="radio" name="tipo" id="itipo6" value="octaldecimal"><label for="itipo6">Octal para decimal</label></p>
+           <p><input type="submit" value="Calcular"></p>
+        </form>
+    </div>
+</body>
+</html>

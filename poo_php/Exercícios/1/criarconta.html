@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contas de banco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Preencha os dados e crie sua conta</h1>
+    </header>
+    <section>
+    <div>
+        <fieldset id="princi"><legend>CRIAR CONTA</legend>
+        <form action="banco.php" method="get">
+            <label for="inum">Número de conta:</label><input type="number" name="num" id="inum" max="1000" min="0" required>
+            <fieldset>
+                <legend>Tipo de conta</legend>
+                <input type="radio" name="tipo" id="itipo1" value="CC"><label for="itipo1">Conta Corrente</label>
+                <input type="radio" name="tipo" id="itipo2" value="CP" checked><label for="itipo2">Conta Poupança</label>
+            </fieldset>
+            <p><label for="iabrir">Abrir conta</label><input type="radio" name="abroufec" id="iabrir" value=true checked>&nbsp;
+            <label for="ifechar">Manter fechada</label><input type="radio" name="abroufec" id="ifechar" value=false></p>
+            <p><label for="inome">Nome do dono:</label><input type="text" name="nome" id="inome" placeholder="Seu nome" maxlength="40" required></p>
+            <input type="submit" id="botao" value="Criar">
+        </form>
+        </fieldset>
+    </div>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form action="cont.php" method="get">
+            <label for="iini">Início:</label><input type="number" name="ini" id="iini"><br>
+            <label for="ifin">Final:</label><input type="number" name="fin" id="ifin"><br>
+            Incremento:<select name="passo" id="ipasso"><br>
+                <option value=1>1</option>
+                <option value=2>2</option>
+                <option value=3>3</option>
+                <option value=4>4</option>
+                <option value=5>5</option>
+            </select>
+            <input type="submit" value="Contar" id="botao">
+        </form>
+    </div>
+</body>
+</html>

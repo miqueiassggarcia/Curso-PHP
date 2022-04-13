@@ -1,0 +1,25 @@
+body {
+    font: normal 15pt Arial;
+    background: rgb(104, 189, 104);
+}
+div {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background: white;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+}
+#botao {
+    background: rgb(175, 175, 175);
+    color: rgb(255, 255, 255);
+    padding: 4px;
+}
+a#botao {
+    border: 1px solid rgb(138, 138, 138);
+    text-decoration: none;
+}
+a#botao:hover {
+    text-decoration: underline;
+}

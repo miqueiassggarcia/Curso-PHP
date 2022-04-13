@@ -1,0 +1,29 @@
+body{
+    font:bold 15pt Arial;
+    background: url(../css/imagem/image.jpg) no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+div{
+    width: 800px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    word-wrap: break-word;
+}
+input{
+    margin-bottom: 20px;
+}
+input#botao{
+    background: rgb(78, 78, 78);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font: bold 13pt Arial;
+}
+h1{
+    color: white;
+    text-align: center;
+}
